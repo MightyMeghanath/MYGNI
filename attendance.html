@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My College Attendance & Scheduling</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="icon" href="./logo.jpg">
+</head>
+<body>
+    <div class="sidebar">
+        <nav id="navbar">
+          
+            <ul id="sidebar-list">
+                <li><img src="./logo.jpg" alt="gni-logo"></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./attendance.html">Attendace</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+                <li><a href="./updates.html">Updates</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+             
+            </ul>
+            <span><img src="./logo.jpg" alt="gni-logo" id="gni-logo2"></span>
+            <span><i class="fa-solid fa-bars baricon" id="baricon"></i></span>
+            <span><i class="fa-solid fa-xmark" id="xmark"></i></span>
+        </nav>
+    </div>
+
+
+    <div class="attendance-container">
+        <div class="attendance-content">
+            <h1>My College Attendance & Scheduling</h1>
+
+            <!-- Attendance Tracking -->
+            <div class="attendance-tracking">
+                <h2 id="attendance-h2-tracking">Attendance Tracking</h2>
+                <div id="attendance">
+                    <label for="attendanceDate">Date:</label>
+                    <input type="date" id="attendanceDate">
+                    <label for="attendanceStatus">Status:</label>
+                    <select id="attendanceStatus">
+                        <option value="Present">Present</option>
+                        <option value="Absent">Absent</option>
+                    </select>
+                    <button id="recordAttendance">Record Attendance</button>
+                </div>
+                <ul id="attendanceList">
+                    <li><pre>DATE        STATUS</pre></li>
+                </ul>
+                <p id="attendancePercentage">Attendance Percentage: **</p>
+            </div>
+
+            <!-- Period-wise Attendance -->
+            <div class="period">
+                <h2>Period-wise Attendance:</h2>
+                <div id="period-attendance">
+                    <div class="period">
+                        <label for="period1">Period  1:</label>
+                        <select id="period1">
+                            <option value="Absent">status</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </div>
+                    <div class="period">
+                        <label for="period2">Period 2:</label>
+                        <select id="period2">
+                            <option value="Absent">status</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </div>
+                    <div class="period">
+                        <label for="period3">Period 3:</label>
+                        <select id="period3">
+                            <option value="Absent">status</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </div>
+                    <div class="period">
+                        <label for="period4">Period 4:</label>
+                        <select id="period4">
+                            <option value="Absent">status</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </div>
+                    <div class="period">
+                        <label for="period5">Period 5:</label>
+                        <select id="period5">
+                            <option value="Absent">status</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </div>
+                    <div class="period">
+                        <label for="period6">Period 6:</label>
+                        <select id="period6">
+                            <option value="Absent">status</option>
+                            <option value="Present">Present</option>
+                            <option value="Absent">Absent</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        
+<!-- ... (previous code) ... -->
+
+<!-- Period-wise Attendance List -->
+<div id="period-attendance-list">
+    <h2>Period-wise Attendance:</h2>
+</div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

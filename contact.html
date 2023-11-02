@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGNI</title>
+    <link rel="icon" href="./logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <nav id="navbar">
+          
+            <ul id="sidebar-list">
+                <li><img src="./logo.jpg" alt="gni-logo"></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./attendance.html">Attendace</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+                <li><a href="./updates.html">Updates</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+             
+            </ul>
+            <span><img src="./logo.jpg" alt="gni-logo" id="gni-logo2"></span>
+            <span><i class="fa-solid fa-bars baricon" id="baricon"></i></span>
+            <span><i class="fa-solid fa-xmark" id="xmark"></i></span>
+        </nav>
+    </div>
+    <div class="contact-container">
+        <h2>Contact us</h2>
+        <div class="form-content">
+          <form action="">
+            <div><label for="firstname">FirstName</label></div>
+            <div><input type="text" name="firstname" placeholder="Enter Your First Name"></div>
+            <div><label for="firstname">LastName</label></div>
+            <div><input type="text" name="lastname" placeholder="Enter Your Last Name"></div>
+            <div><label for="mail">Enter your mail</label></div>
+            <div><input type="mail" placeholder="eg: mohan123@gmail.com"></div>
+            <div><label for="institution" name="institution">Select your institution</label></div>
+            <div><select name="institution" title="institution" id="select-institution">
+                <option value="select">select</option>
+                <option value="GNITC">GNITC</option>
+                <option value="GNIT">GNIT</option>
+                <option value="GNU">GNU</option>
+            </select></div>
+            <div><label for="branch" name="branch">Select your Branch</label></div>
+            <div><select name="branch" title="branch" id="select-branch">
+                <option value="select">select</option>
+                <option value="ECE">ECE</option>
+                <option value="CSE">CSE</option>
+                <option value="CIVIL">CIVIL</option>
+                <option value="MECH">MECH</option>
+                <option value="EEE">EEE</option>
+            </select></div>
+            <div><label for="message">Write your Message:</label></div>
+            <div><textarea name="message" id="message" cols="50" rows="20">I ..............</textarea></div>
+           <div> <button type="submit" id="submit-contact">Submit</button></div>
+        </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

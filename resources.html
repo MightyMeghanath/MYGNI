@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGNI</title>
+    <link rel="icon" href="./logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+    </head>
+<body>
+    <div class="sidebar">
+        <nav id="navbar">
+          
+            <ul id="sidebar-list">
+                <li><img src="./logo.jpg" alt="gni-logo"></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./attendance.html">Attendace</a></li>
+                <li><a href="./resources.html">Resources</a></li>
+                <li><a href="./updates.html">Updates</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+             
+            </ul>
+            <span><img src="./logo.jpg" alt="gni-logo" id="gni-logo2"></span>
+            <span><i class="fa-solid fa-bars baricon" id="baricon"></i></span>
+            <span><i class="fa-solid fa-xmark" id="xmark"></i></span>
+        </nav>
+    </div>
+    <div class="resources-container">
+        <div class="resources">
+            <div id="resources-heading">All Important resources for academics are available here</div>
+            <div id="resources-1"><label for="Regulation">Select your Regulation   :  </label>
+                <select id="mySelect" title="s">
+                    <option value="select">select</option>
+                    <option value="R18">R18</option>
+                    <option value="R22">R22</option>
+                  </select>
+            </div>
+            <div id="resources-links-container">
+                <ul id="resources-links">
+                    <!--The selected regulation links will appear here-->
+                </ul>
+            </div>
+            <div class="video-container">
+                <h1>NOTE:</h1>
+                <p>Sorry, as Many youtubers are not allowing us to share their content. So WE cannot upload here . we provide an youtube search bar here . You can search the unfound videos</p>
+                <form id="search-form" action="https://www.youtube.com/results" method="get" target="iframe-name">
+                    <input type="text" name="search_query" placeholder="Search YouTube">
+                    <button type="submit">Search</button>
+                  </form>
+                  
+                  
+            </div>
+            <div id="video-container1">
+                <div class="video-container-video"><iframe name="iframe-1" src="https://www.youtube.com/embed/irqbmMNs2Bo?si=dzteenfaLFxsUw3x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div  class="video-container-video"><iframe name="iframe-2" src="https://www.youtube.com/embed/XCZakSI-M0I?si=Zfv65G1HXs-eVU2I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div  class="video-container-video"><iframe name="iframe-3" src="https://www.youtube.com/embed/l51oFfo4lJU?si=cMhB-kh5igCojuKA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div  class="video-container-video"><iframe name="iframe-4" src="https://www.youtube.com/embed/1lvaELmz_qc?si=aFJ_2vVIaJ2jpRfG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>              
+            </div>
+            <div id="video-container2">
+                <div  class="video-container-video"><iframe name="iframe-5" src="https://www.youtube.com/embed/2h7yeGJkYW4?si=3IRLbV_h7-1nlyUZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div  class="video-container-video"><iframe name="iframe-6" src="https://www.youtube.com/embed/9hVzEKZQyMU?si=5jqGy2bRAVALtHJ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>  
+                <div  class="video-container-video"><iframe name="iframe-7" src="https://www.youtube.com/embed/RtuNwdHDEAw?si=rnQyWUD6zCMNpNrP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+                <div  class="video-container-video"><iframe name="iframe-8" src="https://www.youtube.com/embed/USrY0JspDEg?si=sGlxNrgDJDMWjxvW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>     
+            </div>
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

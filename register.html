@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MYGNIt</title>
+    <link rel="icon" href="./logo.jpg">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-form-content">
+            <form action="/register" method="post">
+                <div><label for="firstname">FirstName</label></div>
+                <div><input type="text" name="firstname" placeholder="Enter Your First Name" required></div>
+                <div><label for="lastname">LastName</label></div>
+                <div><input type="text" name="lastname" placeholder="Enter Your Last Name" required></div>
+                <div><label for="username"></label>Username</div>
+                <div><input type="username" name="username" placeholder="username" required></div>
+                <div><label for="mail">Enter your mail</label></div>
+                <div><input type="mail" placeholder="eg: mohan123@gmail.com" required></div>
+                <div><label for="password">Enter your Password</label></div>
+                <div><input type="password" name="password" placeholder="password" required></div>
+                <div><label for="tel">Mobile Number</label></div>
+                <div><input type="tel" name="mobile" pattern="[0-9]{10}" placeholder="Enter your mobile number (e.g., 1234567890)" required></div>
+                <div><input type="submit" placeholder="submit"></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
